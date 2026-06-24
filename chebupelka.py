@@ -5,9 +5,9 @@ import subprocess
 import requests
 
 
-LLM_BASE_URL = "http://localhost:1234/v1/"
-LLM_API_KEY = "..."
-LLM_MODEL = "..."
+LLM_BASE_URL = "http://localhost:1234/v1"
+LLM_API_KEY = "lmstudio"
+LLM_MODEL = "qwen3.5-9b"
 LLM_HEADERS = {"Content-Type": "application/json", "Authorization": f"Bearer {LLM_API_KEY}"}
 MAX_TURNS = 1000
 
