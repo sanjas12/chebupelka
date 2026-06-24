@@ -44,7 +44,7 @@ MODEL      = "qwen3.6-35b-a3b"
 ```python
 BASE_URL = "http://localhost:11434/v1"
 API_KEY   = "lmstudio"  # или любой строковый ключ
-MODEL      = "qwen3.6-35b-a3b"
+MODEL      = "qwen3.5-9b"
 ```
 
 ## Как это работает
