@@ -1,9 +1,11 @@
 """Minimal coding agent loop — one tool: bash."""
-import json, sys, subprocess
+import json
+import sys
+import subprocess
 import requests
 
 
-LLM_BASE_URL = "http://ip:port/v1"
+LLM_BASE_URL = "http://localhost:1234/v1/"
 LLM_API_KEY = "..."
 LLM_MODEL = "..."
 LLM_HEADERS = {"Content-Type": "application/json", "Authorization": f"Bearer {LLM_API_KEY}"}

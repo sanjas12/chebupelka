@@ -39,6 +39,14 @@ API_KEY   = "ollama"  # или любой строковый ключ
 MODEL      = "qwen3.6-35b-a3b"
 ```
 
+### Пример с LLMStudio
+
+```python
+BASE_URL = "http://localhost:11434/v1"
+API_KEY   = "ollama"  # или любой строковый ключ
+MODEL      = "qwen3.6-35b-a3b"
+```
+
 ## Как это работает
 
 ```
